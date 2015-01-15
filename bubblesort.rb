@@ -1,17 +1,3 @@
-#for each element in the list, look at it and the elt on the right 
-#	if out of order, swap elements
-
-#		go through array n-1 times
-
-#		after k iterations, checking last k elements are redundant
-
-#		1st iteration => all elements (n-0)
-#		2nd iter -> n-1
-
-#		not_sorted = false
-#		change to true if have to swap any elements. 
-#		OR counter for how many counts. If sorted => DONE.
-
 def bubble_sort(arr)
 	n = arr.length
 	times = n-2
